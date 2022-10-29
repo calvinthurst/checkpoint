@@ -19,18 +19,32 @@
 <body>
   <!-- SECTION header  -->
   <header class="container-fluid sticky-top">
-    <section class="row p-2 bg-green align-items-center">
-      <div class="col-10 ps-5">
+    <section class=" row p-2 bg-green align-items-center justify-content-between">
+      <div class=" col-8">
         <h3 class="fw-bold text-light pt-1 text-playfair"> <img class="pb-1" src="barcode.png" alt="barcode"> LOREM
           IPSUM</h3>
+      </div>
+      <div class="col-2 col-md-1 text-end">
+        <div class="dropdown green-menu">
+          <button class="dropbtn"><i class="mdi mdi-menu text-light"></i></button>
+          <div class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#info-icon">Info</a>
+            <a href="#verified">Testimonial</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#about-us">About Us</a>
+          </div>
+        </div>
+      </div>
       </div>
     </section>
   </header>
   <main class="container-fluid">
     <!-- SECTION Form/background img  -->
-    <section class="row bg-dumbdog">
+    <section class="row bg-dumbdog scroll-margin" id="home">
       <div class="col-10 col-md-4 my-3">
-        <h4 class="ms-5 text-light">Lorem, ipsum.</h4>
+        <h4 class="ms-5 text-darken">Lorem, ipsum.</h4>
         <form class="card ms-5 mt-2">
           <div class="m-3 col-auto">
             <input type="first-name" class="form-control" id="first-name" placeholder="First Name">
@@ -66,7 +80,7 @@
       </div>
     </section>
     <!-- SECTION info with icon card  -->
-    <section class="row justify-content-evenly bg-green align-items-center">
+    <section class="row justify-content-evenly bg-green align-items-center scroll-margin" id="info-icon">
       <div class="col-10 col-md-5 order-2 order-md-1">
         <div class="text-light my-5">
           <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
@@ -87,7 +101,7 @@
       </div>
     </section>
     <!-- SECTION img with info  -->
-    <section class="row justify-content-around align-items-center my-5" md-3>
+    <section class="row justify-content-around align-items-center my-5 scroll-margin" id="verified">
       <div class="col-10 col-md-3 d-flex">
         <img
           src="https://images.unsplash.com/photo-1601554170378-7dbb0d5cc48f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
@@ -102,15 +116,15 @@
       </div>
     </section>
     <!-- SECTION 3 cards with a big one in the middle  -->
-    <section class="row justify-content-evenly bg-grey align-items-center">
-      <div class="col-10 col-md-3 order-3 order-md-1 card text-center my-3 card-shadow">
+    <section class="row justify-content-evenly bg-grey align-items-center scroll-margin" id="reviews">
+      <div class="col-10 col-md-3 order-3 order-md-1 card text-center my-3 icon-card-shadow">
 
         <h2>Lorem ipsum dolor sit amet.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus repellendus accusamus. Omnis culpa
         </p>
         <p class="green px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
-      <div class="col-11 col-md-3 order-1 order-md-2 card text-center my-3 card-shadow">
+      <div class="col-11 col-md-3 order-1 order-md-2 card text-center my-3 icon-card-shadow">
         <h1><i class="mdi mdi-star-circle green"></i><i class="mdi mdi-star-circle green"></i><i
             class="mdi mdi-star-circle green"></i></h1>
         <h2>Lorem ipsum dolor sit amet.</h2>
@@ -118,7 +132,7 @@
         </p>
         <p class="green px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
-      <div class="col-10 col-md-3 order-2 order-md-3 card text-center my-3 card-shadow">
+      <div class="col-10 col-md-3 order-2 order-md-3 card text-center my-3 icon-card-shadow">
         <h2>Lorem ipsum dolor sit amet.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ducimus repellendus accusamus. Omnis culpa
         </p>
@@ -126,7 +140,7 @@
       </div>
     </section>
     <!-- SECTION contact us  -->
-    <section class="row bg-green">
+    <section class="row bg-green scroll-margin" id="contact-us">
       <div class="col-5 text-light mx-5 mt-5">
         <h1>Lorem ipsum dolor sit.</h1>
       </div>
@@ -137,7 +151,7 @@
     </section>
   </main>
   <!-- SECTION footer  -->
-  <footer class="container-fluid">
+  <footer class="container-fluid scroll-margin" id="About-us">
     <section class="row bg-grey justify-content-evenly">
       <div class="col-10 green m-5">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, possimus doloribus. Eius voluptate
