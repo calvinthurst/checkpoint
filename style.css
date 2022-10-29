@@ -21,8 +21,16 @@
 .bg-dumbdog {
   background-image: url("https://images.unsplash.com/photo-1614261812340-5ee9a3ed33a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0px -230px;
   background-size: cover;
+}
+
+.icon-card-shadow {
+  box-shadow: 4px 8px 15px #888888
+}
+
+.card-shadow {
+  box-shadow: 3px 6px 12px #888888
 }
 
 .move-down {
