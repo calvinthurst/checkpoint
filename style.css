@@ -1,0 +1,36 @@
+.bg-green {
+  background-color: #07AB80;
+}
+
+.bg-grey {
+  background-color: #eaeaea;
+}
+
+.text-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.grey {
+  color: #eaeaea;
+}
+
+.green {
+  color: #07AB80;
+}
+
+.bg-dumbdog {
+  background-image: url("https://images.unsplash.com/photo-1614261812340-5ee9a3ed33a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.move-down {
+  transform: translateY(0%);
+}
+
+@media (min-width: 768px) {
+  .move-down {
+    transform: translateY(50%);
+  }
+}
